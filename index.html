@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Project </title>
+    <link rel="stylesheet" href="assets/fonts-stylesheet.css">
+    <link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<div class="main">
+
+<header class="Header">
+    <div class="logo">
+        <img src="https://logoipsum.com/logo/logo-12.svg" alt="image" width="140" height="130" title="Logo as logo">
+    </div>
+    <ul class="menu">
+        <div>
+            <li class="menu-item"><a href="#">Home</a></li>
+            <li class="menu-item"><a href="#">Home Alone 1</a></li>
+            <li class="menu-item"><a href="#">Home Alone 2</a></li>
+        </div>
+    </ul>
+</header>
+        <!--   Start Headings       -->
+<section class="headings">
+    <h2>TYPOGRAPHY.</h2>
+    <div class="Headings">
+        <h5>Headings</h5>
+        <h1>h1 headline</h1>
+        <h2>h2 headline</h2>
+        <h3>h3 headline </h3>
+        <h4>h4 headline</h4>
+        <h5>h5 headline></h5>
+        <h6>h6 headline</h6>
+    </div>
+    <div class="paragraphs">
+        <h5>Paragraphs</h5>
+        <p>Above all, don't lie to yourself. The man who lies to himself and listens to his own lie comes to a point that he cannot distinguish the truth within him, or around him, and so loses all respect for himself and for others. And having no respect he ceases to love.</p>
+
+        <p class="bold">― Fyodor Dostoevsky, Crime and Punishment</p>
+
+    </div>
+</section>
+<!--   Start Links       -->
+<section class="Links-Lists">
+
+    <h2>Links & Lists</h2>
+
+    <div class="lists">
+        <div>
+            <h5>Unordered List</h5>
+            <ul>
+                <li>li 1</li>
+                <li>li 2</li>
+                <li>li 3</li>
+            </ul>
+        </div>
+
+        <div>
+            <h5>Ordered List</h5>
+
+            <ol>
+                <li>ol 1</li>
+                <li>ol 2</li>
+                <li>ol 3</li>
+            </ol>
+        </div>
+    </div>
+    <div class="links">
+        <h5>LInks</h5>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </div>
+    <div class="buttons">
+        <h5>Buttons</h5>
+        <div>
+            <a class="btn btn-1" href="#">Link 1</a>
+            <a class="btn btn-2" href="#">Link 2</a>
+        </div>
+        <a class="btn btn-3" href="#">Link 3</a>
+    </div>
+</section>
+<section class="forms">
+    <h2>Table</h2>
+    <table>
+         <tbody>
+            <tr>
+                <td></td>
+                <td>Monday</td>
+                <td>Tuesday</td>
+                <td>Wednesday</td>
+                <td>Thursday</td>
+            </tr>
+            <tr>
+                <td>1:00</td>
+                <td rowspan="2">Office</td>
+                <td></td>
+                <td rowspan="2">Office</td>
+                <td rowspan="8">
+                    <ul>
+                        <li>Office</li>
+                        <li>
+                            Hours
+                            <ol>
+                                <li>4:00</li>
+                                <li>5:00</li>
+                                <li>6:00</li>
+                            </ol>
+                        </li>
+                        <li>By</li>
+                        <li>Ibrahim Hajjaj</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>1:30</td>
+                <td>Dept Meeting</td>
+            </tr>
+            <tr>
+                <td>2:00</td>
+                <td colspan="2" rowspan="3">Mat 108</td>
+                <td rowspan="3">Mat 108</td>
+            </tr>
+            <tr>
+                <td>2:30</td>
+            </tr>
+            <tr>
+                <td>3:00</td>
+            </tr>
+            <tr>
+                <td>3:00</td>
+                <td rowspan="3">CSC 205</td>
+                <td rowspan="3">CSC 205</td>
+                <td rowspan="3">CSC 205</td>
+            </tr>
+            <tr>
+                <td>4:00</td>
+            </tr>
+            <tr>
+                <td>4:30</td>
+            </tr>
+        </tbody>
+    </table>
+
+</section>
+<section class="forms">
+    <h2>Form</h2>
+    <form>
+        <div>
+            <h5>Personal Details</h5>
+            <div>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" placeholder="First Name" value="">
+            </div>
+            <div>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Last Name" value="">
+            </div>
+            <div class="radio_buttons">
+                <p>Choose Gender</p>
+                <div class="radio">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+        </div>
+        
+
+        <div>
+            <h5>Favourite Car</h5>
+            <label for="cars">Choose a car:</label>
+            <select id="cars" name="cars">
+                <option value="volvo" >Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi" selected>Audi</option>
+            </select>
+            <div class="checkbox">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Volvo" checked>
+                <label for="vehicle1"> I have a Volvo</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Saab">
+                <label for="vehicle2"> I have a Saab</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Fiat">
+                <label for="vehicle3"> I have a Fiat</label>
+            </div>
+
+        </div>
+        
+        <div>
+            <h5>textarea</h5>
+            <label>
+                <textarea name="message" rows="10" cols="auto" placeholder="Textarea placeholder..."></textarea>
+            </label>
+        </div>
+        <input type="submit" value="Submit">
+
+    </form>
+</section>
+
+</div>
+
+<footer>
+    <p><small>Copyright &copy;2020 Ibrahim Hajjaj.</small></p>
+</footer>
+
+</body>
+</html>
